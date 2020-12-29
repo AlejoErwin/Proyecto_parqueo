@@ -1,0 +1,1115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F0F0F7;
+    box-sizing: border-box;
+}
+
+ /*Inicio del herader*/
+header{
+    background: #FFFFFF;
+    width: 100%;
+    height: 50px;
+}
+
+/* Fin del header*/
+
+/* Inicio para la mano del cursor*/
+.cursor{
+	cursor:pointer;
+}
+/* Fin del la mano*/
+
+
+/* Inicio del menu*/
+.menu{
+    list-style: none;
+    line-height: 48px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 12px;
+    width: 14em;
+    
+}
+.menu a{
+    text-decoration: none;
+    padding-left: 10px;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+    color: rgba(255,255,255,1);
+    padding:0px 10px;
+    width:216px;
+	display:inline-block;
+    margin:1px;       
+}
+.bot{
+    background: rgb(0, 0, 0, .1);  
+    width:230px;
+}
+.espacio{
+	margin-right:30px;
+}
+.menu a:hover{
+    background: rgb(0, 0, 0, .1);   
+}
+.linea{
+    box-shadow: 6px 0 #A3A0FB inset;
+    margin-bottom: 1px;
+    padding-left: .18em;
+}
+span img{
+    margin-top: 15px;
+    position: absolute;
+}
+
+ nav{
+     background: #43425D;
+     box-sizing: border-box;
+     left: -18em;
+     height: 100%;
+     padding-right: -25em;
+     padding-top: 1em;
+     position: absolute;
+     top: 0;
+    z-index: 0;
+ }
+ nav.mostrar{
+    left: 0px;
+}
+
+.titulo{
+    height: 40px;
+    padding: 5px;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 21px;
+		margin-top: -3px;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+}
+
+/* Fin del menu*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Parte tabla*/
+
+.ingrese{
+
+    overflow: visible;
+    line-height: 21px;
+    margin-top: -3px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(244,244,248,1);
+    letter-spacing: 2px;
+}
+.boton{
+    
+    text-decoration: none;
+	background: #43425D;
+    width: 170px;
+	border-radius: 1px;
+	display: inline-block;
+    padding: 20px 35px;
+    margin:5px;
+}
+.b_table{
+    width: 400px;
+    height: 300px;
+    left:410px;
+    position:absolute;
+    
+	right:0px;
+	min-height:400px;
+}
+
+/* Fin de la tabla tabla*/
+
+section{
+    /*background: rgb(0, 183, 255); */
+    width: 1020px;
+    height: 530px;
+    left:290px;
+	position:absolute;
+
+}
+
+/*agregar usuario*/
+
+
+
+/*--------------------------------*/
+/*Titulo*/
+/*--------------------------------*/
+.titulo_pag{
+    position: absolute;
+		
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 40px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+}
+
+
+/*--------------------------------*/
+/*fin titulo*/
+/*--------------------------------*/
+
+
+.container {
+    position: absolute;
+    left:80px;
+    top: 10%;
+	max-width: 450px;
+	height: auto;
+	background-color: #FFFFFF;
+	
+}
+
+.form_top {
+	width: 100%;
+	text-align: center;
+	padding: 1rem 0 1rem;
+}
+
+.form_top h2 {
+	
+		overflow: visible;
+		width: 407px;
+		white-space: nowrap;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+
+}
+.form_top h6 {
+	
+	overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgb(109, 111, 129);
+
+}
+
+.form_reg {
+	padding: 0 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input, .btn_submit, .btn_reset{
+	background-color: #FFFFFF;
+	padding: .38rem;
+	margin: .38rem 0;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+
+.btn_submit, .btn_reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+		
+		
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+}
+.btn_reset {
+	background-color: #EDA135;
+}
+
+.btn_submit:hover {
+	background-color: #2F2E50;
+}
+.btn_submit:active {
+	background-color: #2F2E50;
+}
+
+.btn_reset:hover{
+	background-color: #FA9535;
+}
+
+
+
+
+.radio label {
+	display: inline-block;
+	cursor: pointer;
+	color: #43425D;
+	position: relative;
+	padding: 5px 12px 5px 41px;
+	font-size: 1em;
+	border-radius: 3px;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease; }
+	.radio label:hover {
+		background: #dadada; }
+		.radio label:before {
+			content: "";
+			display: inline-block;
+			width: 12px;
+			height: 12px;
+			position: absolute;
+			left: 15px;
+			border-radius: 50%;
+			background: none;
+			border: 2px solid #43425D; }
+
+			.radio input[type="radio"] {
+				display: none; }
+			.radio input[type="radio"]:checked + label:before {
+				  display: none; }
+			.radio input[type="radio"]:checked + label {
+				  padding: 5px 12px;
+				  background: #43425D;
+				  border-radius: 2px;
+                  color: #f2f2f2; }
+                  
+                  .letra{
+                    overflow: hidden;
+                    line-height: 20px;
+                    margin-top: -3px;
+                    text-align: left;
+                    font-family: Segoe UI;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    color: rgba(0,0,0,1);
+                  }
+
+
+.posici{
+	position: absolute;
+    left:580px;
+    top: 5%;
+}
+.disponi{
+	background: #FFFFFF;
+	width: 250px;
+	height: 115px;
+    left:580px;
+	top: 20%;
+	border: #FFFFFF solid 5px;
+}
+h5{
+	
+	overflow: visible;
+		white-space: nowrap;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+}
+.esp_t{
+	position: relative;
+	top: -30px;
+
+	overflow: visible;
+	text-align: center;
+		white-space: nowrap;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 95px;
+		color: rgba(67,66,93,1);
+
+}
+
+.tam_op{
+	border-bottom: solid #E9E9F0 .1rem;
+	padding: .36rem 5px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgb(109, 111, 129);
+	
+
+}
+
+
+
+/*---------------------------------------RESERVAS------------------------*/
+
+.positionRe{
+	position: absolute;
+	left: 237px;
+	top: 2.8%;
+	height: 20px;
+}
+.input_re{
+	width: 140px;
+	background-color: #FFFFFF;
+	padding: .38rem;
+	margin: .38rem 0rem;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+
+
+
+
+/* fin de agregar usuario*/
+
+
+/* --------------------------------------------------------- */
+
+/* Inicio de retiro de vehiculo */
+
+.container_ret {
+    position: absolute;
+    width: 580px;
+    left:0px;
+    top: 15%;
+	max-width: 750px;
+	height: 425px;
+	background-color: #FFFFFF;
+	border: #FFFFFF solid 10px;
+	
+	
+}
+
+
+
+/* barra de scroll*/
+
+.contenedor_escro{
+	position: absolute;
+	overflow-y: scroll;
+	width: 580px;
+	height: 296px;
+}
+
+.tam_scro{
+	width: 570px;
+	border:#F5F6FA;
+	background: #F5F6FA;
+}
+
+.contenedor_escro::-webkit-scrollbar{
+	width:  10px;
+}
+.contenedor_escro::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+/* Fin barra de scroll*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.retirar_v{
+    /*background: red ;*/
+    width: 510px;
+    height: 500px;
+    left:505px;
+    top: 2%;
+    position:absolute;
+
+}
+
+.input_ret{
+	background-color: #FFFFFF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: 2px  #FFFFFF;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+    color: rgba(67,66,93,1);
+    border-radius: 50px;
+}
+
+
+/* Seccion del buscar */
+.search-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-flow: row-reverse nowrap;
+        -ms-flex-flow: row-reverse nowrap;
+            flex-flow: row-reverse nowrap;
+    width: 250px;
+  }
+  .search-wrapper .search {
+    background-color: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-left: 0;
+    border-radius: 0 25px 25px 0;
+    color: #444;
+    padding: .6rem .5rem;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+    width: 100%;
+  }
+  .search-wrapper .search + i {
+    background-color: #ffffff;
+    border: 2.5px solid #FFFFFF;
+    border-radius: 25px 0 0 25px;
+    border-right: 0;
+    color: #777;
+    padding: .67rem .65rem;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+  }
+  .search-wrapper .search:focus {
+    border-color: rgb(255, 255, 255);
+    outline: none;
+  }
+  .search-wrapper .search:focus + i {
+    border-color: #FFFFFF;
+  }
+/* Fin de la seccion de buscar */
+
+.boton_buscar{
+    /*background: rgb(0, 183, 255);*/
+    position:absolute;
+    top: 0px;
+    width: 250px;
+    left:260px;
+    
+}
+
+.btn_submit_buscar{
+	width: 250px;
+	border-bottom: none;
+	background-color: #F0F0F7;
+    color: #2F2E50;
+    border-radius: 50px black;
+        overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+        font-size: 13px;
+        
+    padding: .7rem .100rem;
+    border-radius: 50px;
+    border: 2.2px solid #2F2E50;
+}
+
+.tam{
+	
+    padding: .3rem 3rem;
+	font-size: 23px;
+	font-weight: bold;
+}
+.tam:hover{
+	background: #2F2E50;
+}
+
+
+.form_top_ret{
+	width: 100%;
+	text-align: center;
+	padding: 0rem 0 0rem;
+	margin-bottom: 1rem;
+}
+.tamma{
+	overflow: visible;
+		white-space: nowrap;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+}
+
+.tam_h5{
+	font-size: 40px;
+}
+
+
+
+/* Fin de inicio de retiro de vehiculo */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de lista */
+.container_lis {
+    position: absolute;
+    left:0px;
+    top: 10%;
+	height: auto;
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: 450px;
+	border: #FFFFFF solid 10px;
+	
+}
+
+.contenedor_escroL{
+	position: absolute;
+	overflow-y: scroll;
+	width: 1000px;
+	height: 420px;
+}
+
+.tam_scroL{
+	width: 990px;
+	border:#F5F6FA;
+	background: #F5F6FA;
+}
+
+.contenedor_escroL::-webkit-scrollbar{
+	width:  10px;
+}
+.contenedor_escroL::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.buscador{
+	float: right;
+}
+/* Fin de lista */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de Ayuda */
+
+.container_ayu {
+    width: 480px;
+    left:0px;
+    top: 4%;
+	max-width: 750px;
+	height: 200px;
+	background-color: #FFFFFF;
+	margin: 3% auto;
+	padding-bottom: 1rem;
+	
+}
+
+
+.container_ayu_sc{
+    width: 480px;
+    left:0px;
+    top: 4%;
+	max-width: 750px;
+	height: 125px;
+	background-color: #FFFFFF;
+	margin: 3% auto;
+	padding-bottom: 1rem;
+	overflow-y: scroll;
+	
+}
+.container_ayu_sc::-webkit-scrollbar{
+	width:  10px;
+}
+.container_ayu_sc::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.container_ayu_scT{
+	position: relative;
+    width: 440px;
+    left: 20px;
+    top: -10%;
+	max-width: 750px;
+	height: 125px;
+	background-color: #FFFFFF;
+	margin: 3% auto;
+	padding-bottom: 1rem;
+	overflow-y: scroll;
+	
+}
+.container_ayu_scT::-webkit-scrollbar{
+	width:  10px;
+}
+.container_ayu_scT::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.form_tit{
+		overflow: visible;
+		width: 407px;
+		white-space: nowrap;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+}
+
+.form_ayuda{
+	width: 400px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.form_num{
+	width: 210px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.m_autos{
+	width: 150px;
+	height: auto;
+	
+}
+
+.m_motos{
+	width: 150px;
+	height: auto;
+}
+
+.auto{
+	width: 150px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-weight: bold;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgb(49, 48, 68);
+		text-decoration: true;
+}
+
+.monto_auto{
+	overflow: hidden;
+		width: 171px;
+		height: auto;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgb(75, 74, 74);
+}
+/* Fin de Ayuda */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de Ajuste */
+
+
+.nombre_u{
+		top: 0px;
+		overflow: visible;
+		width: 420px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(67,66,93,1);
+}
+
+.tama{
+	font-size: 18px;
+}
+
+
+.ingrese_aj{	
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(47,46,80,1);
+}
+.boton_aj{
+    
+    text-decoration: none;
+	background: #FFFFFF;
+	width: 340px;
+    padding: 9px 0px;
+	margin:5px;
+	border: 2.2px solid #2F2E50;
+	border-radius: 4px;
+	
+	display:inline-block;
+}
+
+
+.espacio_aj{
+	margin-right:50px;
+	
+}
+
+span.espacio_aj img{
+	top: 69%;
+}
+
+.espacio_a{
+	margin-right:-30px;
+	
+}
+
+span.espacio_a img{
+	top: 79.5%;
+	left: 370px;
+}
+
+/* Fin de Ajuste */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+
+/* Inicio de Actualizacion */
+
+.contenedor {
+    left:80px;
+    top: 4%;
+	max-width: 450px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+}
+
+.contenedor_A {
+    left:80px;
+    top: 0%;
+	max-width: 450px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 4% auto;
+	border: #FFFFFF solid 10px;
+}
+
+.tam_A{
+	
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: #2F2E50;
+	margin: 2px;
+}
+
+.form_reg_act_A {
+	padding: 0 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input_A{
+	background-color: #FFFFFF;
+	padding: .2rem;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.form_reg_act {
+	padding: 0 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.con_tam{
+	
+	white-space: nowrap;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,66,93,1);
+	letter-spacing: 2px;
+
+}
+
+.btn_submit_bot{
+	padding: .6rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+}
+
+
+.btn_submit_bot{
+	width: 50%;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+
+
+
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de cambio contraseña */
+
+.btn_submit_act{
+	padding: .6rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+}
+
+.btn_submit_act{
+	width: 70%;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+
+/* Fin de actualizacion */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+
+/*  */
+/*  confirmacion */
+
+
+.confirmacio{
+	position: absolute;
+	left: 180px;
+	top: 30%;
+	background: #FFFFFF;
+	width: 630px;
+	height: auto;
+	border: #FFFFFF solid 10px;
+	
+}
+
+.comTam{
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+
+.btn_confirma{
+	text-decoration: none;
+	padding: 8px 50px;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+}
+
+.btm_confiCS{
+	padding: 8px 10px;
+	margin: .5rem 0;
+}
+
+.espacioS{
+	margin-right:30px;
+}
+
+.tamC{
+	
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+    
+	padding: 8px 20px;
+	
+}
+
+
+.tamCS{
+	
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+    
+	padding: 8px 0px;
+	
+}
+
+

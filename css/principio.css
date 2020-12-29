@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	background: url(inicio3.png);
+	box-sizing: border-box;
+}
+
+.dee{
+	position: absolute;
+	left: 750px;
+	top: 430px;
+	width: 465px;
+	height: 156px;
+}
+.ingre{	
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.boto{ 
+    text-decoration: none;
+	background: rgba(47,46,80,1);
+	width: 450px;
+    padding: 7px 0px;
+	margin:5px;
+	border: 2.2px solid #2F2E50;
+	border-radius: 4px;
+	display:inline-block;
+}
+

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Raleway ExtraLidht');
+}
+
+body{
+    background: #F0F0F7;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom:  200em;
+}
+
+.lnr{
+    background: burlywood;
+}
+
+header{
+    background: #FFFFFF;
+    width: 100%;
+    height: 50px;
+}
+
+
+.menu{
+    list-style: none;
+    line-height: 48px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 12px;
+    width: 14em;
+    
+}
+.menu a{
+    
+    text-decoration: none;
+    padding-left: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    width: 100;
+
+
+   
+
+
+		left: 520px;
+		top: 17px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+        color: rgba(255,255,255,1);
+    padding:0px 10px;
+    width:224px;
+	display:inline-block;
+    margin:1px;
+    
+	
+	
+        
+}
+.bot{
+    background: rgb(0, 0, 0, .1);  
+    width:223px;
+}
+.espacio{
+	margin-right:30px;
+}
+
+.menu a:hover{
+background: rgb(0, 0, 0, .1);   
+}
+
+
+.menuli{
+    box-shadow: 6px 0 #A3A0FB inset;
+    margin-bottom: 1px;
+    padding-left: .18em;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.linea{
+    box-shadow: 6px 0 #A3A0FB inset;
+    margin-bottom: 1px;
+    padding-left: .18em;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.men li:hover{
+    box-shadow: 15em 0 rgba(255, 255, 255, .2) inset;
+
+}
+
+.menu li:nth-child(2) a{
+    background-position: 0 -42px;
+}
+
+.menu li:nth-child(3) a{
+    background-position: 0 -82px;
+}
+
+.menu li:nth-child(4) a{
+    background-position: 0 -126px;
+}
+
+.menu li:nth-child(5) a{
+    background-position: 0 -168px;
+}
+
+.menu li:last-child a{
+    background-position: 0 -210px;
+}
+
+
+span img{
+    margin-top: 15px;
+    position: absolute;
+}
+
+/* POSICIONN RESPONSI*/
+ nav{
+     background: #43425D;
+     box-sizing: border-box;
+     left: -18em;
+     height: 100%;
+     padding-right: -25em;
+     padding-top: 1em;
+     position: absolute;
+     top: 0;
+     transition: all .3s;
+    z-index: 0;
+ }
+
+ nav.mostrar{
+     left: 0px;
+ }
+
+ #mostrar-nav{
+     position: absolute;
+     top: 2em;
+     left: 2em;
+     width: 30px;
+     height: 30px;
+     z-index: 30;
+ }
+ section{
+    border: 2px deshed rgb(255, 255, 255);
+    background: floralwhite;
+    
+    width: 400px;
+    height: 300px;
+    left:370px;
+    position:absolute;
+    
+	right:0px;
+	min-height:400px;
+}
+.titulo{
+    height: 40px;
+    padding: 5px;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 21px;
+		margin-top: -3px;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+}
+
+
+

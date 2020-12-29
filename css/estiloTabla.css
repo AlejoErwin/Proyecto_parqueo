@@ -1,0 +1,165 @@
+.tablas_datos{
+    background: #FFFFFF;
+}
+
+
+.tituloT{
+    background: #F5F6FA;
+		
+}
+
+.letraT{
+    overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+        color: rgba(163,166,180,1);
+        
+
+        margin-right:30px;
+}
+
+
+.espacioT{
+    width: 140px;
+	margin-right:30px;
+}
+
+
+.letrasT{
+    height: 35px;
+
+
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(10,10,10,1);
+}
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+
+/*Estilo de la tabla de listas*/
+
+.tablas_datosL{
+    background: #FFFFFF;
+}
+
+
+.tituloTL{
+    background: #F5F6FA;
+		
+}
+
+.letraTL{
+    overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+        color: rgba(163,166,180,1);
+        
+
+        margin-right:30px;
+}
+
+
+.espacioTL{
+    width: 164px;
+	margin-right:30px;
+}
+
+
+.letrasTL{
+    height: 38px;
+
+
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+}
+
+
+.estiloTLO{
+	padding: 2px 30px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+background: rgb(255, 114, 114);
+border-radius: 10px;
+}
+
+.estiloTLL{
+	padding: 3px 25px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+ background: rgb(105, 228, 166);
+ border-radius: 10px;	
+}
+
+.estiloTRE{
+	padding: 2px 25px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+background: #FFCA83;
+border-radius: 10px;
+}
+
+.estiloTMA{
+	padding: 3px 8px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+ background: rgb(105, 199, 228);
+ border-radius: 10px;	
+}
+
+
+
+
+

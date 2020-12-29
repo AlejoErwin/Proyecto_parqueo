@@ -1,0 +1,60 @@
+
+body::-webkit-scrollbar{
+	width:  0px;
+}
+.conteneGrafi{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background: #FFFFFF;
+    left: 20px;
+    top: 30px;
+}
+.EstabecefechaI{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    width: 160px;
+    height: 20px;
+    border: #FFFFFF solid 2px;
+    border-bottom: solid #43425D 2px;
+}
+.EstabecefechaF{
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    width: 160px;
+    height: 20px;
+    border: #FFFFFF solid 2px;
+    border-bottom: solid #43425D 2px;
+}
+
+.BotonGrafica{
+    position: absolute;
+    left: 620px;
+    top: 30px;
+    width: 150px;
+	height: 30px;
+	background: #43425D;
+	color: #FFFFFF;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	border: #FFFFFF solid 2px;
+}
+
+.PosicionAngulo{
+    position: absolute;
+    left: 390px;
+    top: 420px;
+    width: 150px;
+	height: 30px;
+	background: #43425D;
+	color: #FFFFFF;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	border: #FFFFFF solid 2px;
+}

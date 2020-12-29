@@ -1,0 +1,1953 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F0F0F7;
+    box-sizing: border-box;
+}
+
+ /*Inicio del herader*/
+header{
+    background: #FFFFFF;
+    width: 100%;
+    height: 50px;
+}
+
+/* Fin del header*/
+
+/* Inicio para la mano del cursor*/
+.cursor{
+	cursor:pointer;
+}
+/* Fin del la mano*/
+
+
+/* Inicio del menu*/
+.menu{
+    list-style: none;
+    line-height: 48px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 12px;
+    width: 14em;
+    
+}
+.menu a{
+    text-decoration: none;
+    padding-left: 10px;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+    color: rgba(255,255,255,1);
+    padding:0px 10px;
+    width:216px;
+	display:inline-block;
+    margin:1px;       
+}
+.bot{
+    background: rgb(0, 0, 0, .1);  
+    width:230px;
+}
+.espacio{
+	margin-right:30px;
+}
+.menu a:hover{
+    background: rgb(0, 0, 0, .1);   
+}
+.linea{
+    box-shadow: 6px 0 #A3A0FB inset;
+    margin-bottom: 1px;
+    padding-left: .18em;
+}
+span img{
+    margin-top: 15px;
+    position: absolute;
+}
+
+span span img{
+	margin-top: 10px;
+    position: absolute;
+}
+
+ nav{
+     background: #43425D;
+     box-sizing: border-box;
+     left: -18em;
+     height: 100%;
+     padding-right: -25em;
+     padding-top: 1em;
+     position: absolute;
+     top: 0;
+    z-index: 0;
+ }
+ nav.mostrar{
+    left: 0px;
+}
+
+.titulo{
+    height: 40px;
+    padding: 5px;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 21px;
+		margin-top: -3px;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+}
+
+/* Fin del menu*/
+
+
+/* Parte tabla*/
+
+.ingrese{
+
+    overflow: visible;
+    line-height: 21px;
+    margin-top: -3px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(244,244,248,1);
+    letter-spacing: 2px;
+}
+.boton{
+    
+    text-decoration: none;
+    background: #43425D;
+    width: 170px;
+	border-radius: 1px;
+	display: inline-block;
+    padding: 20px 35px; 
+    margin:5px;
+}
+.b_table{
+    width: 400px;
+    height: 300px;
+    left:410px;
+    position:absolute;
+    
+	right:0px;
+	min-height:400px;
+}
+
+/* Fin de la tabla tabla*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Parte tabla*/
+
+
+.b_table{
+    width: 400px;
+    height: 300px;
+    left:410px;
+    position:absolute;
+    
+	right:0px;
+	min-height:400px;
+}
+
+.confi{
+	
+	font-size: 12px;
+	width: 265px;
+}
+
+/* Fin de la tabla tabla*/
+
+section{
+    /*background: rgb(0, 183, 255); */
+
+	
+	width: 1020px;
+    height: 533px;
+    left:290px;
+	position:absolute;
+}
+
+.espacio{
+	margin-right:30px;
+}
+
+
+/*--------------------------------*/
+/*Titulo*/
+/*--------------------------------*/
+.titulo_pag{
+    position: absolute;
+		
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 40px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+}
+
+
+/*--------------------------------*/
+/*fin titulo*/
+/*--------------------------------*/
+
+
+/* Agregar Usuario*/
+
+
+
+.input, .btn_submit, .btn_reset{
+	
+	background-color: #FFFFFF;
+	padding: .8rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+
+.btn_submit, .btn_reset {
+	width: 45%;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+		
+		
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+		
+	display:inline-block;
+}
+
+
+
+.container_re {
+	
+    position: absolute;
+    left: 300px;
+    top: 10%;
+	width: 400px;
+	height: auto;
+	
+	background-color: rgb(255, 255, 255);
+	
+}
+
+
+
+
+.form_top_re {
+	width: 100%;
+	text-align: center;
+	padding: 0.5rem 0 0.1rem;
+	margin-bottom: 0.1rem;
+}
+
+.form_top_re h2 {
+	
+		overflow: visible;
+		width: 407px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+
+}
+.form_top_re h6 {
+	padding: 0 5px;
+	overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgb(109, 111, 129);
+
+}
+
+.input_re{
+	width: 123px;
+	background-color: #FFFFFF;
+	padding: .4rem;
+	margin: .5rem 0.2rem;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.tam{
+	width: 275px;
+}
+
+
+
+.form_reg_re {
+	padding: 0 3.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+.form_rege {
+	
+	padding: 0 2rem;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.espas{
+	margin-right:13px;
+}
+
+.contexto{
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(67,66,93,1);
+}
+
+.taman{
+	padding: 5px 30px;
+
+	width: 200px;
+	height: 40px;
+	border: solid #E9E9F0 .0rem;
+}
+
+/* Fin de Agregar Usuario   */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* Inicio de de Configurar   */
+
+.b_table_conf{
+    width: 400px;
+    height: 300px;
+	left: 120px;
+	top: 13%;
+    position:absolute;
+    
+	right:0px;
+	min-height:400px;
+}
+
+.config_conf{
+	
+	display: inline-block;
+	padding: 10px 0px; 
+	font-size: 12px;
+	width: 265px;
+}
+.co{
+	display: inline-block;
+	padding: 0px 0px;
+}
+
+
+/* Editar informacion de empleado*/
+
+.posicionEd{
+	position: absolute;
+	left: 120px;
+	top: 6%;
+}
+.contenedorEd{
+	background: #FFFFFF;
+	width: 780px;
+	height: 500px;
+	
+}
+.imgGr{
+	border: #F0F0F7 solid 60px;
+}
+
+.tituloEdi{
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+		border: #FFFFFF solid 5px;
+}
+
+.tam_scroD{
+	
+	border:#F5F6FA;
+	background: #F5F6FA;
+}
+
+.tituloED{
+    background: #F5F6FA;
+		
+}
+
+.letraED{
+    overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(163,166,180,1);
+		border: rgba(163,166,180,1);
+		height: 38px;
+
+}
+.espacioED{
+	width: 220px;
+	margin-right:30px;
+}
+.espacioEDD{
+	width: 105px;
+	margin-right:30px;
+}
+.espacioNUM{
+	width: 50px;
+	margin-right:30px;
+}
+.espacioBOT{
+	width: 170px;
+	margin-right:30px;
+}
+
+.listCrEd{
+	position: absolute;
+	width: 757px;
+	height: 395px;
+	background: rgb(255, 255, 255);
+	left: 25px;
+	overflow-y: scroll;
+}
+
+.listCrEd::-webkit-scrollbar{
+	width:  10px;
+}
+.listCrEd::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.estiloLE{
+	height: 43px;
+
+
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+}
+
+
+.espacioA{
+	width: 60px;
+	text-align: left;
+}
+
+.espacioB{
+	width: 190px;
+	text-align: left;
+}
+
+.espacioC{
+	width: 105px;
+	text-align: center;
+}
+.espacioD{
+	width: 120px;
+	text-align: center;
+}
+.botonED{
+	width: 35px;
+	height: 35px;
+	background: #2F2E50;
+	color: #FFFFFF;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	border: #FFFFFF solid 3px;
+	border-radius: 8px;
+	padding: 4px 2px; 
+}
+
+.botonCAME{
+	width: 85px;
+	height: 35px;
+	background: #2F2E50;
+	color: #FFFFFF;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	border: #FFFFFF solid 3px;
+	border-radius: 8px;
+	padding: 5px 3px; 
+}
+
+
+.bordeLista{
+	border-top: solid #2F2E50 1px;
+}
+
+
+/* Editar Informacion */
+.tam_B{
+	width: 450px;
+	height: 35px;
+	font-size: 100px;
+}
+
+.tam_BB{
+	font-size: 10px;
+}
+
+
+/*---------------------------------- Cambiar tarifa ------------------------------------*/
+.posicionTA{
+	position: absolute;
+	left: 10px;
+	top: 20%;
+}
+.estiloTTA{
+	background: #FFFFFF;
+}
+
+.TituloTari{
+    overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+		border: #FFFFFF solid 5px;
+		background: #FFFFFF;
+}
+.TituTari{
+    width: 200px;
+    height: auto;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+		background: #FFFFFF;
+		border: #FFFFFF;
+
+}
+.conteTAri{
+    width: 500px;
+    height: 200px;
+    
+    background: #FFFFFF;
+    
+    overflow-y: scroll;
+    
+}
+.conteTAri::-webkit-scrollbar{
+	width:  10px;
+}
+.conteTAri::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+.tam_scroT{
+	
+	border:#FFFFFF solid 5px ;
+	background: #F5F6FA;
+}
+
+.tituloTA{
+    background: #F5F6FA;
+		
+}
+.letraTA{
+    overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(163,166,180,1);
+		border: rgba(163,166,180,1);
+		height: 38px;
+
+}
+.espacioNUMTA{
+	width: 90px;
+	margin-right:30px;
+}
+.espacioEDTA{
+	width: 70px;
+	margin-right:30px;
+}
+.espacioEDTA1{
+	width: 270px;
+	margin-right:30px;
+}
+.espacioBOTTA{
+	width: 120px;
+	margin-right:30px;
+}
+
+.estiloTA{
+	height: 37px;
+
+
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+}
+
+
+.espacioATA{
+	width: 40px;
+	text-align: left;
+}
+
+.espacioBTA{
+	width: 65px;
+	text-align: right;
+}
+.espacioFECH{
+	width: 195px;
+	text-align: right;
+}
+.espacioCTA{
+	width: 135px;
+	text-align: right;
+}
+.botonTA{
+	width: 90px;
+	height: 25px;
+	background: #2F2E50;
+	border: #2F2E50;
+	color: #FFFFFF;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.espacioTA{
+	margin-right:105px;
+}
+.espacioTARI{
+	margin-right:10px;
+}
+
+.textoRE{
+	height: 30px;
+	width: 100px;
+	
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: #2F2E50;
+	border: #FFFFFF;
+	
+}
+.textoRER{
+	height: 30px;
+	width: 100px;
+	
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: #2F2E50;
+	border: #FFFFFF;
+	border-bottom: #2F2E50 2px solid;
+	
+}
+
+/* -----------------------------------Modificar Espacio -------------------------------------------------- */
+
+
+
+
+
+.posicionEdESP{
+	position: absolute;
+	left: 32px;
+	top: 11%;
+}
+.contenedorEdESP{
+	background: #FFFFFF;
+	width: 460px;
+	height: 495px;
+	border: #F0F0F7 solid 5px;
+	
+}
+
+
+.imgGrTA{
+	border: #F0F0F7 solid 20px;
+}
+
+
+.tituloEdiESP{
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+		border: #FFFFFF solid 5px;
+}
+
+.tam_scroDESP{
+	
+	border:#F5F6FA;
+	background: #F5F6FA;
+}
+
+.tituloEDESP{
+    background: #F5F6FA;
+		
+}
+
+.estiloLE1{
+	height: 38px;
+
+
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+}
+
+
+.letraEDESP{
+    overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(163,166,180,1);
+		border: rgba(163,166,180,1);
+		height: 25px;
+
+}
+.espacioNUMESP{
+	width: 40px;
+	margin-right:30px;
+}
+.espacioEDESP{
+	width: 180px;
+	margin-right:30px;
+}
+.espacioEDDESP{
+	width: 170px;
+	margin-right:30px;
+}
+.espacioEDEESP{
+	width: 100px;
+	margin-right:30px;
+	text-align: left;
+}
+.espacioBOTESP{
+	width: 180px;
+	margin-right:30px;
+}
+
+.listCrEdESP{
+	position: absolute;
+	width: 401px;
+	height: 385px;
+	background: rgb(255, 255, 255);
+	left: 48px;
+	overflow-y: scroll;
+}
+
+.listCrEdESP::-webkit-scrollbar{
+	width:  10px;
+}
+.listCrEdESP::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.listCrEdESP1{
+	position: absolute;
+	width: 401px;
+	height: 385px;
+	background: rgb(255, 255, 255);
+	left: 519px;
+	overflow-y: scroll;
+}
+
+.listCrEdESP1::-webkit-scrollbar{
+	width:  10px;
+}
+.listCrEdESP1::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.estiloLEESP{
+	height: 25px;
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+}
+
+
+.espacioAESP{
+	width: 50px;
+	text-align: left;
+}
+
+.espacioBESP{
+	width: 120px;
+	text-align: left;
+}
+
+.espacioCESP{
+	width: 150px;
+	text-align: center;
+}
+.espacioDESP{
+	width: 190px;
+	text-align: right;
+}
+.espacioEESP{
+	width: 120px;
+	text-align: center;
+}
+.botonEDESP{
+	width: 150px;
+	height: 25px;
+	background: #43425D;
+	color: #FFFFFF;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	border: #FFFFFF solid 2px;
+}
+
+.bordeListaESP{
+	border-top: solid #2F2E50 1px;
+}
+
+
+.estiloTLOESP{
+	padding: 2px 15px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+background: #FF7285;
+border-radius: 10px;
+}
+
+.estiloTLLESP{
+	padding: 3px 9px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+ background: #69E4A6;
+ border-radius: 10px;	
+}
+.estiloMANESP{
+	padding: 3px 9px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+ background: rgb(105, 199, 228);
+ border-radius: 10px;	
+}
+
+.estiloMANT{
+	padding: 3px 9px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(10,10,10,1);
+ background:  #FFCA83;
+ border-radius: 10px;	
+}
+
+
+
+.radio label {
+	display: inline-block;
+	cursor: pointer;
+	color: #43425D;
+	position: relative;
+	padding: 14px 21px 14px 50px;
+	font-size: 1em;
+	border-radius: 3px;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease; }
+	.radio label:hover {
+		background: #dadada; }
+		.radio label:before {
+			content: "";
+			display: inline-block;
+			width: 21px;
+			height: 21px;
+			position: absolute;
+			left: 21px;
+			border-radius: 50%;
+			background: none;
+			border: 2px solid #43425D; }
+
+			.radio input[type="radio"] {
+				display: none; }
+			.radio input[type="radio"]:checked + label:before {
+				  display: none; }
+			.radio input[type="radio"]:checked + label {
+				  padding: 14px 21px;
+				  background: #43425D;
+				  border-radius: 2px;
+                  color: #f2f2f2; }
+                  
+                  .letra{
+                    overflow: hidden;
+                    line-height: 20px;
+                    margin-top: -3px;
+                    text-align: left;
+                    font-family: Segoe UI;
+                    font-style: normal;
+                    font-weight: bolder;
+                    font-size: 30px;
+					color: rgba(0,0,0,1);
+					letter-spacing: 2px;
+                  }
+
+
+.pocisionBot{
+	position: absolute;
+	top: -12%;
+	left: 58%;
+	
+}
+
+
+
+.tamBot{
+	font-size: 18px;
+	border: #2F2E50;
+	border-radius: 5px;
+	width: 170px;
+	height: 35px;
+	padding: 0px 0px;
+}
+
+.espacioTARE{
+	margin-right:20px;
+}
+
+
+.InformeEstado{
+	position: absolute;
+	width: 222px;
+	height: 224px;
+	background: #43425D;
+	top: 400px;
+	left: 6px;
+}
+
+.LetraEstt{
+	font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgb(254, 254, 255);
+}
+
+.LetraTitL{
+	font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgb(254, 254, 255);
+		letter-spacing: 2px;
+}
+
+.RegistroEs{
+	position: absolute;
+	text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: #2F2E50;
+		left: 10px;
+		top: 20px;
+}
+
+.posinEsta{
+	position: absolute;
+	left: 5px;
+}
+.borderEsta{
+	border: #FFFFFF solid 2.2px;
+}
+
+/* Fin de la configuracion */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+
+/* Inicio de estadistica */
+
+
+.tabla_esta{
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+
+.estad{
+	background: #FFFFFF;
+	width: 400px;
+	height: auto;
+
+	border: solid #F0F0F7 18px;
+
+
+}
+
+
+div.estad h3{
+		overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+}
+
+.tama_est{
+	display: inline-block;
+	padding: 10px 0px;
+
+	width: 60px;
+}
+
+.textoRERESP{
+	height: 30px;
+	width: 200px;
+	
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 22px;
+	color: #2F2E50;
+	border: #FFFFFF;
+	border-bottom: #2F2E50 2px solid;
+	
+}
+/* Fin de estadistica */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+/* ---------------------------------------------------------------  */
+
+
+/* Inicio de Ayuda */
+
+.container_ayu {
+    width: 480px;
+    left:0px;
+    top: 4%;
+	max-width: 750px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 2% auto;
+	padding-bottom: 1rem;
+	
+}
+
+.container_ayu_sc{
+    width: 480px;
+    left:0px;
+    top: 4%;
+	max-width: 750px;
+	height: 60px;
+	background-color: #FFFFFF;
+	margin: 3% auto;
+	padding-bottom: 1rem;
+	overflow-y: scroll;
+	
+}
+.container_ayu_sc::-webkit-scrollbar{
+	width:  10px;
+}
+.container_ayu_sc::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.container_ayu_scT{
+	position: relative;
+    width: 440px;
+    left: 20px;
+    top: -12%;
+	max-width: 750px;
+	height: 109px;
+	background-color: #FFFFFF;
+	padding-bottom: 1rem;
+	overflow-y: scroll;
+	
+}
+.container_ayu_scT::-webkit-scrollbar{
+	width:  10px;
+}
+.container_ayu_scT::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.form_tit{
+		overflow: visible;
+		width: 407px;
+		white-space: nowrap;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(67,66,93,1);
+		letter-spacing: 2px;
+}
+
+.form_ayuda{
+	width: 400px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.form_num{
+	width: 210px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.m_autos{
+	width: 150px;
+	height: auto;
+	
+}
+
+.m_motos{
+	width: 150px;
+	height: auto;
+}
+
+.auto{
+	width: 150px;
+	overflow: visible;
+		white-space: nowrap;
+		text-align: center;
+		font-weight: bold;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgb(49, 48, 68);
+		text-decoration: true;
+		height: 20px;
+}
+
+.monto_auto{
+	overflow: hidden;
+		width: 171px;
+		height: auto;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgb(75, 74, 74);
+}
+
+.cont_boton_ayu{
+	position: relative;
+	left: 160px;
+	top: 0px;
+}
+
+
+
+
+.ingrese_ayu{
+
+    overflow: visible;
+    line-height: 21px;
+    margin-top: -3px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(244,244,248,1);
+    letter-spacing: 2px;
+}
+.boton_ayu{
+    
+    text-decoration: none;
+    background: #43425D;
+	border-radius: 1px;
+	width: 110px;
+	display: inline-block;
+    padding: 10px 0px; 
+    margin:2px;
+}
+
+
+
+
+
+/* Fin de Ayuda */
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de Ajuste */
+
+
+.nombre_u{
+	top: 0px;
+	overflow: visible;
+	width: 420px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(67,66,93,1);
+}
+
+.tama{
+font-size: 18px;
+}
+
+
+.ingrese_aj{	
+overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(47,46,80,1);
+}
+.boton_aj{
+
+text-decoration: none;
+background: #FFFFFF;
+width: 340px;
+padding: 9px 0px;
+margin:5px;
+border: 2.2px solid #2F2E50;
+border-radius: 4px;
+
+display:inline-block;
+}
+
+
+.espacio_aj{
+margin-right:50px;
+
+}
+
+span.espacio_aj img{
+top: 68%;
+}
+
+.espacio_a{
+margin-right:-30px;
+
+}
+
+span.espacio_a img{
+top: 78.7%;
+left: 370px;
+}
+
+/* Fin de Ajuste */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+
+/* Inicio de Actualizacion */
+
+.contenedor {
+left:80px;
+top: 4%;
+max-width: 450px;
+height: auto;
+background-color: #FFFFFF;
+margin: 5% auto;
+padding-bottom: 1rem;
+
+}
+
+.form_reg_act {
+padding: 0 6rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.con_tam{
+
+overflow: visible;
+width: 407px;
+white-space: nowrap;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+color: rgba(67,66,93,1);
+letter-spacing: 2px;
+
+}
+
+.btn_submit_bot{
+padding: .6rem;
+margin: .5rem 0;
+border: none;
+border-bottom: solid #E9E9F0 .1rem;
+}
+
+
+.btn_submit_bot{
+width: 50%;
+border-bottom: none;
+background-color: #43425D;
+color: white;
+border-radius: 4px;
+overflow: visible;
+white-space: nowrap;
+text-align: center;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: rgba(255,255,255,1);
+}
+
+.form_reg_val {
+	padding: 0 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de cambio contraseña */
+
+.btn_submit_act{
+padding: .6rem;
+margin: .5rem 0;
+border: none;
+border-bottom: solid #E9E9F0 .1rem;
+}
+
+.btn_submit_act{
+width: 70%;
+border-bottom: none;
+background-color: #43425D;
+color: white;
+border-radius: 4px;
+overflow: visible;
+white-space: nowrap;
+text-align: center;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: rgba(255,255,255,1);
+}
+
+/* Fin de actualizacion */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+
+/*  */
+
+
+
+
+
+/* ventana emergente*/
+.btn_confirma{
+	text-decoration: none;
+	padding: 8px 50px;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+}
+
+.espacioS{
+	margin-right:30px;
+}
+
+
+
+.existeU{
+	position: absolute;
+	font-size: 13px;
+	width: 300px;
+	height: 5px;
+	top: 50%;
+	text-decoration: underline rgb(255, 96, 96);
+	color: rgb(255, 96, 96);
+	padding: 8px 1px;
+	
+}
+
+.existeU { animation: entradaTitulo .5s forwards; }
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+
+/* Inicio de Actualizacion */
+
+.contenedor {
+    left:80px;
+    top: 4%;
+	max-width: 450px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+}
+
+.contenedor_A {
+    left:80px;
+    top: 0%;
+	max-width: 450px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 4% auto;
+	border: #FFFFFF solid 10px;
+}
+
+.tam_A{
+	
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: #2F2E50;
+	margin: 2px;
+}
+
+.form_reg_act_A {
+	padding: 0 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input_A{
+	background-color: #FFFFFF;
+	padding: .2rem;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+	transition: all .5s;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+
+.form_reg_act {
+	padding: 0 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.con_tam{
+	
+	white-space: nowrap;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,66,93,1);
+	letter-spacing: 2px;
+
+}
+
+.btn_submit_bot{
+	padding: .6rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+}
+
+
+.btn_submit_bot{
+	width: 50%;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+
+
+
+.tam_B{
+	width: 300px;
+	height: 30px;
+	font-size: 15px;
+}
+
+.tam_BB{
+	padding: 0px 40px;
+}
+
+
+.tam_BBB{
+	width: 35%;
+	height: 35px;
+	padding: 2px 2px;
+border-bottom: none;
+background-color: #43425D;
+color: white;
+border-radius: 4px;
+overflow: visible;
+white-space: nowrap;
+text-align: center;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+text-decoration: none;
+color: rgba(255,255,255,1);
+}
+
+.tambB{
+	padding: 50px 50px;
+	text-align: center;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+	font-size: 15px;
+	
+}
+
+.tammBbB{
+	height: 100px;
+	padding: 6.5px 0px;
+	
+}
+
+
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* Inicio de cambio contraseña */
+
+.btn_submit_act{
+	padding: .6rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #E9E9F0 .1rem;
+}
+
+.btn_submit_act{
+	width: 70%;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+
+/*  */
+/*  confirmacion */
+
+
+.confirmacio{
+	position: absolute;
+	left: 180px;
+	top: 30%;
+	background: #FFFFFF;
+	width: 630px;
+	height: auto;
+	border: #FFFFFF solid 10px;
+	
+}
+
+.comTam{
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.btn_confirma{
+	text-decoration: none;
+	padding: 8px 50px;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+}
+
+.espacioS{
+	margin-right:30px;
+}
+
+.tamC{
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+	padding: 8px 20px;	
+}
+.tamCS{
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	border-radius: 5px;
+	padding: 8px 0px;	
+}
+
+/* fin configuracion */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Inicio de Reporte */
+
+.ReporteGeneral{
+	position: absolute;
+	left: 200px;
+	top: 5px;
+}
+
+.FechaInical{
+	position: absolute;
+	left: 40px;
+	width: 130px;
+	height: 25px;
+
+}
+
+.FechaFinal{
+	position: absolute;
+	left: 220px;
+	width: 130px;
+	height: 25px;
+}
+
+.BotonReporte{
+	position: absolute;
+	left: 400px;
+	width: 150px;
+	height: 30px;
+	background: #43425D;
+	border: #2F2E50 solid 1px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.Contenedor_Reporte{
+	position: absolute;
+    left:0px;
+    top: 10%;
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	width: 1000px;
+	height: 450px;
+	border: #FFFFFF solid 10px;
+}
+
+
+.contenedor_escroLGen{
+	position: absolute;
+	overflow-y: scroll;
+	width: 1000px;
+	height: 420px;
+}
+
+.tam_scroL{
+	width: 990px;
+	border:rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
+}
+
+.contenedor_escroLGen::-webkit-scrollbar{
+	width:  10px;
+}
+.contenedor_escroLGen::-webkit-scrollbar-thumb{
+	background: #43425D;
+	border-radius: 2px;
+}
+
+.BotonPGeneralPFD{
+	text-decoration: none;
+	position: absolute;
+	left: 860px;
+	top: 5px;
+	width: 150px;
+	height: 30px;
+	background: #43425D;
+	border: #2F2E50 solid 1px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+
+
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+}
+.centerBPDF{
+	border-bottom: none;
+	background-color: #43425D;
+	color: white;
+	border-radius: 4px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+}
